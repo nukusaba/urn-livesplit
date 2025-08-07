@@ -1,0 +1,28 @@
+@use "colors.scss" as *;
+
+.timer
+{
+      color: $ahead_fg;
+      font-size: 37pt;
+      font-family: Noto Mono;
+      font-weight: bold;
+      padding-right: 8px;
+      font-weight: bold;
+}
+.timer-millis
+{
+      font-size: 26pt;
+      padding-bottom: 4px;
+}
+
+.timer.behind { color: $behind_fg; }
+.timer.losing { color: $losing_fg; }
+.timer.delay { color: $timer_off_fg; }
+
+
+.delta { color: $ahead_fg; font-weight: bold; }
+.losing { color: $ahead_losing_fg; }
+.behind { color: $behind_fg; }
+.behind.losing { color: $losing_fg; }
+.best-segment { color: $sob_fg; }
+.best-split { color: $pb_fg; }

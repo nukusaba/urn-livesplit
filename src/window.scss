@@ -1,0 +1,51 @@
+@use "colors.scss" as *;
+
+.window
+{
+      background-color: $ls_bg;
+      color: $ls_fg;
+      margin: -8px;
+}
+
+.header
+{
+      background-image: linear-gradient(to bottom, $ls_title_bg_c1, $ls_title_bg_c2);
+      min-height: 30px;
+      font-weight: bold;
+      margin-left: -8px;
+      margin-right: -8px;
+}
+.title
+{
+      color: $ls_fg;
+      font-size: 10pt;
+}
+.attempt-count
+{
+      color: $ls_fg;
+      font-size: 10pt;
+      margin-bottom: 1px;
+      margin-top: 10px;
+      margin-right: 16px;
+}
+
+// footer
+.footer
+{
+      padding-right: 17px;
+      padding-left: 15px;
+      background: linear-gradient(to bottom, $ls_footer_bg_c1, $ls_footer_bg_c2);
+      margin: 0 -8px;
+}
+.prev-segment-label,
+.prev-segment,
+.sum-of-bests-label,
+.sum-of-bests,
+.personal-best-label,
+.personal-best,
+.world-record-label,
+.world-record
+{
+      padding-bottom: 4px;
+      padding-top: 3px;
+}

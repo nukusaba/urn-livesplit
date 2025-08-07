@@ -1,0 +1,31 @@
+@use "colors.scss" as *;
+
+menubar,
+.menubar
+{
+      color: $ls_fg;
+      background-color: $ls_split_bg_alt;
+      padding: 2px;
+      border-radius: 0;
+}
+
+menu,
+.menu
+{
+      background-color: $ls_bg;
+      border: 1px solid $ls_sep_c;
+      padding: 0;
+      border-radius: 0;
+}
+menuitem
+{
+      color: $ls_fg;
+      border: none;
+      border-radius: 0;
+}
+menuitem:hover
+{
+      background-image: linear-gradient(to bottom, $ls_split_bg_current_c1, $ls_split_bg_current_c2);
+      border: none;
+      border-radius: 0;
+}
