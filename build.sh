@@ -1,5 +1,5 @@
 #!/bin/bash
-export THEME_NAME="livesplit"
+export THEME_NAME="live-split"
 export BUILD_DIR="./build"
 export URN_THEME_PATH="/usr/local/share/urn/themes/$THEME_NAME"
 
